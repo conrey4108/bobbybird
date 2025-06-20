@@ -3,7 +3,7 @@ const ctx = canvas.getContext("2d");
 const restartBtn = document.getElementById("restartBtn");
 
 const birdImg = new Image();
-birdImg.src = "asset/hayesbb.png"; // Image source
+birdImg.src = "hayesbb.png"; // Image source
 
 let birdY, birdVelocity, pipes, frame, score, gameOver;
 const gravity = 0.6;
